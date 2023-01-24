@@ -1,10 +1,9 @@
 import os
-import argparse
 import time
 import hashlib
 import shutil
 import sys
-from pathlib import Path
+
 try:
     src_folder=sys.argv[1]
     rep_folder=sys.argv[2]
